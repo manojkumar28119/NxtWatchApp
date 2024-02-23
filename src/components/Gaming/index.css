@@ -1,0 +1,10 @@
+.gaming-videos-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+@media screen and (max-width: 576px) {
+  .gaming-videos-list {
+    justify-content: center;
+  }
+}

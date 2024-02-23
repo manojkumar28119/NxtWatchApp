@@ -1,0 +1,97 @@
+.navbar-content-container {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media screen and (min-width: 769px) {
+  .mb-logout-btn {
+    display: none;
+  }
+}
+.profile {
+  height: 30px;
+  margin-right: 20px;
+}
+.nav-content-card {
+  display: flex;
+  align-items: center;
+}
+.nav-mobile-content-card {
+  display: flex;
+  align-items: center;
+}
+.home-logo {
+  width: 100px;
+}
+.icon-btn {
+  border: none;
+  background-color: transparent;
+  margin-right: 30px;
+  padding: 0px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.light-icon {
+  font-size: 25px;
+  color: #ffffff;
+}
+.dark-icon {
+  font-size: 23px;
+}
+@media screen and (max-width: 767px) {
+  .nav-content-card {
+    display: none;
+  }
+  .icon-btn {
+    margin-right: 5px;
+    align-self: center;
+  }
+  .logout-text {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-content-card {
+    display: none;
+  }
+}
+
+.mb-light-icon {
+  color: #181818;
+  font-size: 22px;
+}
+.mb-dark-icon {
+  color: #ffffff;
+  font-size: 22px;
+}
+.ham-icon {
+  font-size: 30px;
+}
+.cancel-button {
+  padding: 10px;
+  margin-right: 25px;
+  color: #94a3b8;
+  border: 1px solid #616e7c;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: transparent;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.confirm-btn {
+  padding: 11px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}

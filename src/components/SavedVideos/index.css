@@ -1,0 +1,13 @@
+.no-saved-videos-image {
+  width: 60%;
+}
+
+@media screen and (max-width: 576px) {
+  .no-saved-videos-image {
+    width: 80%;
+  }
+}
+.saved-video-list {
+  padding: 0px;
+  list-style: none;
+}

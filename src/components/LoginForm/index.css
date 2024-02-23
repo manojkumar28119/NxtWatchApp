@@ -1,0 +1,41 @@
+.website-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.checkbox {
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.btn-container {
+  width: 90%;
+  margin-top: 25px;
+}
+
+.login-button {
+  background-color: #3b82f6;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.err-msg {
+  color: #ff0b37;
+  font-size: 11px;
+  margin: 0px;
+  margin-top: 2px;
+}

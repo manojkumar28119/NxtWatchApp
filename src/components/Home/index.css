@@ -1,0 +1,72 @@
+.home-page {
+  font-family: 'Roboto';
+  height: 100vh;
+}
+
+.menu-nd-videos-card {
+  display: flex;
+}
+.premium-card-nd-videos-card {
+  width: 80%;
+  height: 120vh;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 768px) {
+  .premium-card-nd-videos-card {
+    width: 100%;
+  }
+}
+
+.premium-card-off {
+  display: none;
+}
+
+.premium-logo {
+  width: 150px;
+}
+.premium-text {
+  color: #1e293b;
+  font-size: 500;
+  line-height: 30px;
+}
+.get-it-now-btn {
+  padding: 10px;
+  background-color: transparent;
+  color: #1e293b;
+  border: 1.5px solid #1e293b;
+}
+.premium-close-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.close-icon {
+  font-size: 20px;
+}
+.videos-item-list {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.failure-image {
+  width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  .failure-image {
+    width: 80%;
+  }
+}
+
+.retry-btn {
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  border: none;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+}

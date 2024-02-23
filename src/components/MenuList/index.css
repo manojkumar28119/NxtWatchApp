@@ -1,0 +1,17 @@
+.menu-list-items {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-icons-card {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.contact-icon {
+  height: 30px;
+  margin-right: 15px;
+}
+.contact-us-card {
+  padding: 10px;
+}

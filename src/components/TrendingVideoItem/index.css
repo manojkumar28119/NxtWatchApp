@@ -1,0 +1,33 @@
+.thumbnail-trn-videos {
+  width: 300px;
+  margin-right: 20px;
+  height: 180px;
+}
+.trending-item-card {
+  display: flex;
+  margin-bottom: 50px;
+}
+.mobile-trnd-video-card {
+  display: flex;
+  padding: 5px;
+}
+
+@media screen and (min-width: 567px) {
+  .mobile-trnd-video-card {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .trending-item-card {
+    flex-direction: column;
+  }
+  .thumbnail-trn-videos {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+  .desk-view-trending {
+    display: none;
+  }
+}
